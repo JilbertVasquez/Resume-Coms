@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:160vh; 
+    background-color: red;
+}
+
+#container {
+    height: 150vh;
+    width: 70%;
+    display: flex;
+    border: 3px solid black;
+    background-color: aliceblue;
+}
+
+#left {
+    width: 35%;
+    height: 100%;
+    background-color: #EBD9B4;
+}
+
+#right {
+    width: 75%;
+    height: 100%;
+    background-color: blue;
+}
+
