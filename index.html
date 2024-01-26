@@ -7,6 +7,9 @@
     <title>Resume</title>
 </head>
 <body>
+    <div id = "button">
+        <button id="colorToggle">Toggle Color</button>
+    </div>
     <diV id = "container">
         <div id = "left">
             <div id = "picture">
@@ -14,20 +17,115 @@
             </div>
             <div id = "personal-details">
 
+                <div id = "icons">
+                    <img src= "telephone-call.png" alt="phone">
+                    <img src= "gmail-logo.png" alt="gmail">
+                    <img src= "home.png" alt="home">
+                </div>
+                <div id = "details">
+                    <h3>09956787751</h3>
+                    <h3>Drycntr@gamil.com</h3>
+                    <h3>1859 Capistrano Compound <br> Ibayo tipas Taguig</h3>
+                </div>
+
             </div>
             <div id = "skills">
-
+                <h2>SKILLS</h2>
+                <ul>
+                    <li>Active Listening Skills</li>
+                    <li>Fast Learner</li>
+                    <li>Loyalty</li>
+                    <li>Positive Attitude</li>
+                    <li>Time Management</li>
+                    <li>Interpersonal Skills</li>
+                </ul>
             </div>
             <div id = "languages">
-
+                <h2>LANGUAGES</h2>
+                <ul>
+                    <li>English (intermediate)</li>
+                    <li>Filipino</li>
+                </ul>
             </div>
             <div id = "signiture">
-                
+                <h3>
+                    I hereby that all information's
+                    written in this resume are true
+                    and correct <br><br><br><br><br><br>
+                </h3>
+                <h3>
+                    Audrey P Alcantara
+                    Signature over Printed Name:
+                </h3>
             </div>
         </div>
         <div id = "right">
-
+            <div id = "name">
+                <h1>AUDREY ALCANTARA</h1>
+            </div>
+            <div id = "objective">
+                <h2>OBJECTIVE</h2>
+                <p>Seeking a challenging position in a reputed
+                    organization where I can learn new skills, expand my
+                    knowledge, and leverage my learnings also I want to
+                    share to my co worker my knowledge so we can learn
+                    some knowledge to each other and to have a great
+                    team work.</p>
+            </div>
+            <div id = "personal-info">
+                <div id = "personal-info-title">
+                    <h2>PERSONAL INFORMATION</h2>
+                    <div id = "details-info">
+                        <ul>
+                            <li>Full Name</li>
+                            <li>Age</li>
+                            <li>Date of birth</li>
+                            <li>Place of birth </li>
+                            <li>Gender</li>
+                            <li>Civil status</li>
+                            <li>Religion</li>
+                            <li>Height</li>
+                            <li>Weight</li>
+                        </ul>
+                        <ul>
+                            <li>Audrey P. Alcantara</li>
+                            <li>20 yrs old</li>
+                            <li>May 01 2003</li>
+                            <li>Pasig City</li>
+                            <li>Female</li>
+                            <li>Single</li>
+                            <li>Roman Catholic</li>
+                            <li>5’2</li>
+                            <li>70 KG</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id = "education">
+                <h2>EDUCATION</h2>
+                <h3>GRADE SCHOOL - La Immaculada Concepcion School</h3>
+                <h3>2008-2014 (E. Caruncho Ave Malinao Pasig City)</h3>
+                <h3>JUNIOR HIGHSCHOOL - La Immaculada Concepcion School</h3>
+                <h3>2008-2014 (E. Caruncho Ave Malinao Pasig City)</h3>
+                <h3>SENIOR HIGHSCHOOL - ACADEMIA DE STA MARTHA</h3>
+                <h3>(2018- 2020) 79 N. Cuevas St. Kalawaan Pasig City</h3>
+                <ul>
+                    <li>Accountancy and Business Management</li>
+                </ul>
+            </div>
         </div>
     </diV>
+
+    <script>
+        document.getElementById("colorToggle").addEventListener("click", function () {
+            document.body.classList.toggle("dark-mode");
+        });
+    </script>
+    <style>
+        .dark-mode {
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
 </body>
 </html>
